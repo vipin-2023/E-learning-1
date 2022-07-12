@@ -303,7 +303,7 @@ $(document).ready(function()
 				autoplay:true,
 				smartSpeed:1200,
 				nav:false,
-				dots:false,
+				dots:true,
 				responsive:
 				{
 					0:

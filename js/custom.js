@@ -154,7 +154,7 @@ $(document).ready(function()
 				loop:true,
 				autoplay:true,
 				nav:false,
-				dots:false,
+				dots:true,
 				smartSpeed:1200
 			});
 

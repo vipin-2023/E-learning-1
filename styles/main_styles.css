@@ -71,10 +71,10 @@ ul
 p
 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 25px;
 	line-height: 1.85;
 	font-weight: 400;
-	color: #76777a;
+	color: #545454;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -125,7 +125,7 @@ p::selection
 	
 }
 h1{font-size: 48px;}
-h2{font-size: 36px;}
+h2{font-size: 48px;}
 h3{font-size: 24px;}
 h4{font-size: 18px;}
 h5{font-size: 14px;}
@@ -744,10 +744,16 @@ section
 {
 	line-height: 1.2;
 }
+.sub_text{
+	font-size: 34;
+	color: #000;
+}
 .section_subtitle
 {
+	
+	font-size: 34px;	
 	line-height: 1.85;
-	margin-top: 14px;
+	margin-top: 24px;
 }
 .section_background
 {
@@ -1023,7 +1029,7 @@ section
 .course_title a
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 20px;
+	font-size: 22px;
 	color: #384158;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1037,13 +1043,15 @@ section
 }
 .course_teacher
 {
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 400;
-	color: #384158;
+	color: #4d4d4d;
 	margin-top: 6px;
 }
 .course_text
 {
+	font-size: 16px;
+	color: #4d4d4d;
 	margin-top: 13px;
 }
 .course_footer
@@ -1091,12 +1099,12 @@ section
 }
 .courses_button
 {
-	width: 210px;
-	height: 46px;
+	width: 280px;
+	height: 56px;
 	border-radius: 3px;
 	background: #14bdee;
 	text-align: center;
-	margin: 0 auto;
+	margin: auto;
 	margin-top: 41px;
 	box-shadow: 0px 5px 40px rgba(29,34,47,0.15);
 }
@@ -1105,10 +1113,12 @@ section
 	box-shadow: 0px 5px 40px rgba(29,34,47,0.45);
 }
 .courses_button a
-{
+{ 
+	
+	margin: auto;
 	display: block;
-	font-size: 14px;
-	font-weight: 500;
+	font-size: 27px;
+	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 46px;
 	color: #FFFFFF;
@@ -1506,7 +1516,7 @@ section
 .team_title a
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 700;
 	color: #384158;
 	-webkit-transition: all 200ms ease;
@@ -1521,7 +1531,7 @@ section
 }
 .team_subtitle
 {
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 400;
 	color: #76777a;
 	margin-top: 6px;

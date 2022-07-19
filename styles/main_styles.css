@@ -1043,7 +1043,7 @@ section
 }
 .course_teacher
 {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 400;
 	color: #4d4d4d;
 	margin-top: 6px;
@@ -1053,7 +1053,7 @@ section
 	font-size: 18px;
 	letter-spacing: .4px;
 	color: #4d4d4d;
-	margin-top: 13px;
+	
 }
 .course_footer
 {

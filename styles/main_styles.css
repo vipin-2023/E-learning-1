@@ -49,6 +49,7 @@
 }
 body
 {
+	
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
@@ -952,8 +953,8 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 93px;
-	padding-bottom: 103px;
+	padding-top: 30px;
+	padding-bottom:30px;
 }
 .features_row
 {
@@ -994,8 +995,8 @@ section
 .courses
 {
 	width: 100%;
-	padding-top: 93px;
-	padding-bottom: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .courses_row
 {

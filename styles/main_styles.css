@@ -33,7 +33,7 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&family=Oswald&family=Roboto&family=Rubik:ital,wght@1,500&display=swap');
 
 /*********************************
 2. Body and some general stuff
@@ -49,7 +49,7 @@
 
 body {
 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -81,6 +81,7 @@ p {
 }
 
 p a {
+	
 	display: inline;
 	position: relative;
 	color: inherit;
@@ -101,6 +102,7 @@ a:hover,
 a:visited,
 a:active,
 a:link {
+
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -130,6 +132,7 @@ h1 {
 }
 
 h2 {
+	letter-spacing: .1em;
 	font-size: 48px;
 }
 
@@ -151,7 +154,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -309,7 +312,7 @@ section {
 }
 
 .question {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	color: #FFFFFF;
 	margin-left: 0px;
@@ -395,7 +398,7 @@ section {
 }
 
 .logo_text {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 0.75;
@@ -651,12 +654,12 @@ section {
 }
 
 .menu_nav ul li a {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: rgba(0, 0, 0, 1);
 	font-weight: 700;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.2em;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -703,35 +706,35 @@ section {
 }
 
 .menu .search_input::-webkit-input-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .menu .search_input:-moz-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .menu .search_input::-moz-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .menu .search_input:-ms-input-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .menu .search_input::input-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0, 0, 0, 0.4) !important;
@@ -810,7 +813,7 @@ section {
 }
 
 .home_slider_title {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -849,35 +852,35 @@ section {
 }
 
 .home_search_input::-webkit-input-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #b5b8be !important;
 }
 
 .home_search_input:-moz-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #b5b8be !important;
 }
 
 .home_search_input::-moz-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #b5b8be !important;
 }
 
 .home_search_input:-ms-input-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #b5b8be !important;
 }
 
 .home_search_input::input-placeholder {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #b5b8be !important;
@@ -910,7 +913,7 @@ section {
 	font-weight: 500;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.2em;
 	cursor: pointer;
 }
 
@@ -1000,6 +1003,12 @@ section {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+.button-text-custom{
+	letter-spacing: .12em;
+	margin-top: 8px;
+	text-align: center;
+	color: white;
+}
 
 .courses_row {
 	margin-top: 45px;
@@ -1009,7 +1018,7 @@ section {
 	width: 100%;
 	border-radius: 6px;
 	background: #FFFFFF;
-	box-shadow: 0px 1px 10px rgba(29, 34, 47, 0.1);
+	box-shadow: 3px 3px 10px rgba(29, 34, 47, 0.1);
 }
 
 .course_image {
@@ -1031,7 +1040,7 @@ section {
 }
 
 .course_title a {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 22px;
 	color: #384158;
 	-webkit-transition: all 200ms ease;
@@ -1054,7 +1063,7 @@ section {
 
 .course_text {
 	font-size: 18px;
-	letter-spacing: .4px;
+	letter-spacing: .6px;
 	color: #4d4d4d;
 
 }
@@ -1087,14 +1096,14 @@ section {
 }
 
 .course_price {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	color: #14bdee;
 }
 
 .course_price span {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	text-decoration: line-through;
@@ -1103,11 +1112,12 @@ section {
 }
 
 .courses_button {
-	width: 280px;
+	width: 215px;
 	height: 50px;
+	cursor: pointer;
 
-	border-radius: 3px;
-	background: #14bdee;
+	border-radius: 8px;
+	background: #0cbaf4;
 	text-align: center;
 	margin: auto;
 	margin-top: 20px;
@@ -1127,7 +1137,7 @@ section {
 	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 46px;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 /*********************************
@@ -1157,7 +1167,7 @@ section {
 }
 
 .counter_title {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	color: #FFFFFF;
 	font-weight: 700;
 }
@@ -1230,7 +1240,7 @@ section {
 }
 
 .counter_form_title {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #384158;
@@ -1385,7 +1395,7 @@ section {
 }
 
 .event_day {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	color: #14bdee;
 	font-weight: 700;
@@ -1393,7 +1403,7 @@ section {
 }
 
 .event_month {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	color: #14bdee;
 	font-weight: 400;
@@ -1415,7 +1425,7 @@ section {
 }
 
 .event_title a {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 1.4;
@@ -1518,7 +1528,7 @@ section {
 }
 
 .team_title a {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #384158;
@@ -1619,7 +1629,7 @@ section {
 }
 
 .news_post_large_title a {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	color: #384158;
@@ -1707,7 +1717,7 @@ section {
 }
 
 .news_post_small_title a {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 1.55;
@@ -1745,7 +1755,7 @@ section {
 }
 
 .newsletter_title {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1824,7 +1834,7 @@ section {
 	text-transform: uppercase;
 	color: #14bdee;
 	font-weight: 500;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.2em;
 }
 
 /*********************************
@@ -1855,7 +1865,7 @@ section {
 }
 
 .footer_logo_text {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 0.75;
@@ -1872,7 +1882,7 @@ section {
 }
 
 .footer_title {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #FFFFFF;

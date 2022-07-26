@@ -1295,7 +1295,7 @@ section
 .footer_social ul li a i
 {
 	color: #FFFFFF;
-	line-height: 45px;
+	line-height: 57.7px;
 }
 .footer_social ul li:hover
 {
@@ -1413,7 +1413,7 @@ button {
 	cursor: pointer;
 	position: relative;
 	padding: 8px;
-	width: 300px;
+	width: 180px;
 	margin-top: 20px;
 	border-radius: 3.75rem;
 	line-height: 2.5rem;

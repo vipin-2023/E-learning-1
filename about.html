@@ -1,502 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>i BIM</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Unicat project" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="styles/bootstrap4/bootstrap.min.css"
-    />
-    <link
-      href="plugins/font-awesome-4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="plugins/colorbox/colorbox.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="plugins/OwlCarousel2-2.2.1/owl.carousel.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="plugins/OwlCarousel2-2.2.1/animate.css"
-    />
-    <link rel="stylesheet" type="text/css" href="styles/about.css" />
-    <link rel="stylesheet" type="text/css" href="styles/about_responsive.css" />
-    <link rel="icon" href="images/favicon.png" />
-  </head>
-  <body>
-    <div id="preloader">
-      <div id="container" class="container-preloader">
-        <div class="animation-preloader">
-         
-          <div class="txt-loading">
-            <span preloader-text="i" class="characters">i</span>
-            
-            <span preloader-text="B" class="characters">B</span>
-            
-            <span preloader-text="I" class="characters">I</span>
-            
-            <span preloader-text="M" class="characters">M</span>
-            
-           
-          </div>
-        </div>	
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
+
+<head>
+  <title>i BIM</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Unicat project" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css" />
+  <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css" />
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css" />
+  <link rel="stylesheet" type="text/css" href="styles/about.css" />
+  <link rel="stylesheet" type="text/css" href="styles/about_responsive.css" />
+  <link rel="icon" href="images/favicon.png" />
+</head>
+
+<body>
+  <div id="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+
       </div>
-    </div>	
-    <div class="super_container">
-      <!-- Header -->
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>
+  <div class="super_container">
+    <!-- Header -->
 
-      <header class="header">
-        <!-- Header Content -->
-        <div class="header_container">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div
-                  class="header_content d-flex flex-row align-items-center justify-content-start"
-                >
-                  <div class="logo_container">
-                    <a href="#">
-                     <div class="logo_text"><img src="images/image.png" alt="" width="140" height="71"/></div>
-                    </a>
-                  </div>
-                  <nav class="main_nav_contaner ml-auto">
-                    <ul class="main_nav">
-                      <li><a href="index.html">HOME</a></li>
-                      <li class="active"><a href="about.html">ABOUT</a></li>
-                      
-
-                      <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-
-                    <!-- Hamburger -->
-
-                    <div class="hamburger menu_mm">
-                      <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
-                    </div>
-                  </nav>
+    <header class="header">
+      <!-- Header Content -->
+      <div class="header_container">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                <div class="logo_container">
+                  <a href="#">
+                    <div class="logo_text"><img src="images/image.png" alt="" width="140" height="71" /></div>
+                  </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Header Search Panel -->
-        <div class="header_search_container">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div
-                  class="header_search_content d-flex flex-row align-items-center justify-content-end"
-                >
-                  <form action="#" class="header_search_form">
-                    <input
-                      type="search"
-                      class="search_input"
-                      placeholder="Search"
-                      required="required"
-                    />
-                    <button
-                      class="header_search_button d-flex flex-column align-items-center justify-content-center"
-                    >
-                      <i class="fa fa-search" aria-hidden="true"></i>
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <!-- Menu -->
-
-      <div
-        class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400"
-      >
-      <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-        
-        <nav class="menu_nav">
-          <ul class="menu_mm">
-            <li class="menu_mm"><a  href="index.html">HOME</a></li>
-            <li class="menu_mm"><a href="#">ABOUT</a></li>
-         
-
-            <li class="menu_mm"><a href="contact.html">CONTACT</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <!-- Home -->
-
-      <div class="home">
-        <div class="breadcrumbs_container">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="breadcrumbs">
-                  <ul>
+                <nav class="main_nav_contaner ml-auto">
+                  <ul class="main_nav">
                     <li><a href="index.html">HOME</a></li>
-                    <li>About</li>
+                    <li class="active"><a href="about.html">ABOUT</a></li>
+
+
+                    <li><a href="contact.html">CONTACT</a></li>
                   </ul>
-                </div>
+
+                  <!-- Hamburger -->
+
+                  <div class="hamburger menu_mm">
+                    <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+                  </div>
+                </nav>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- About -->
-
-      <div class="about">
+      <!-- Header Search Panel -->
+      <div class="header_search_container">
         <div class="container">
           <div class="row">
             <div class="col">
-              <div class="section_title_container text-center">
-                <h2 class="section_title">
-                  Welcome To i BIM Solutions
-                </h2>
-                <div class="section_subtitle">
-                  <p>
-                    "Grow together with Technology."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row about_row justify-content-center">
-            <!-- About Item -->
-            <div class="col-lg-3 about_col about_col_left">
-              <div class="about_item">
-                <div class="about_item_image">
-                  <img src="images/story.jpg" alt="" />
-                </div>
-                <div class="about_item_title"><a href="#">Our Stories</a></div>
-                <div class="about_item_text">
-                  <p>
-                    We have been in the IT and construction industries for a 
-                    decade and more with a good working experience on IT Programming, BIM /CAD Construction Projects. 
-                    
-                    We would like to impart the experienced industrial Professional  
-                    knowledge to you with a unique designed proven 
-                    programme,which will tune you to become a  Expert & Tech Champion in a very short time.
-                    
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- About Item -->
-            <div class="col-lg-3 about_col about_col_middle">
-              <div class="about_item">
-                <div class="about_item_image">
-                  <img src="images/mission.jpg" alt="" />
-                </div>
-                <div class="about_item_title"><a href="#">Our Mission</a></div>
-                <div class="about_item_text">
-                  <p>
-                    We pledge to offer top quality teaching & Guidance from  
-Expert Faculty.Aiming with concept-Grow together with technology while Empowering Engineers.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- About Item -->
-            <div class="col-lg-3 about_col about_col_right">
-              <div class="about_item">
-                <div class="about_item_image">
-                  <img src="images/vision.jpeg" alt="" />
-                </div>
-                <div class="about_item_title"><a href="#">Our Vision</a></div>
-                <div class="about_item_text">
-                  <p>
-                    Dedicated to advancing technology and the human mind for 
-global harmony.
-                  </p>
-                </div>
+              <div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+                <form action="#" class="header_search_form">
+                  <input type="search" class="search_input" placeholder="Search" required="required" />
+                  <button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </header>
 
-      <!-- Feature -->
+    <!-- Menu -->
 
-      <div class="feature">
-        <div
-          class="feature_background"
-          style="background-image: url(images/courses_background.jpg)"
-        ></div>
+    <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+      <div class="menu_close_container">
+        <div class="menu_close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+
+      <nav class="menu_nav">
+        <ul class="menu_mm">
+          <li class="menu_mm"><a href="index.html">HOME</a></li>
+          <li class="menu_mm"><a href="#">ABOUT</a></li>
+
+
+          <li class="menu_mm"><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Home -->
+
+    <div class="home">
+      <div class="breadcrumbs_container">
         <div class="container">
           <div class="row">
             <div class="col">
-              <div class="section_title_container text-center">
-                <h2 class="section_title">Why You Choose Us</h2>
-                <div class="section_subtitle">
-                  <p>
-                    "Grow together with Technology."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row feature_row">
-            <!-- Feature Content -->
-            <div class="col-lg-6 feature_col">
-              <div class="feature_content">
-                <!-- Accordions -->
-                <div class="accordions">
-                  <div class="elements_accordions">
-                    <div class="accordion_container">
-                      <div class="accordion d-flex flex-row align-items-center">
-                        <div>Experience</div>
-                      </div>
-                      <div class="accordion_panel">
-                        <p>
-                          Unmatched experience of being in the industry for decades, delivering global standerd.
-                          We are experts in this field. So we committed to provide high quality education. 
-                          
-                      </div>
-                    </div>
-
-                    <div class="accordion_container">
-                      <div class="accordion d-flex flex-row align-items-center">
-                        <div>You’re learning from the best.</div>
-                      </div>
-                      <div class="accordion_panel">
-                        <p>we were delivered projects in Middle East, East Asia, India and UK. We are always expanding our horizons and now entering Europe region.
-                           This also enabled us to have in depth understanding of codes and standards to follow for our global projects.</p>
-                      </div>
-                    </div>
-
-                    <div class="accordion_container">
-                      <div class="accordion d-flex flex-row align-items-center">
-                        <div>We assist you to get placement.</div>
-                      </div>
-                      <div class="accordion_panel">
-                        <p>
-                         We believe that a Course is only complete after achieving your expected job profile .
-                        </p>
-                      </div>
-                    </div>
-
-                    <div class="accordion_container">
-                      <div class="accordion d-flex flex-row align-items-center">
-                        <div>Years of contact reserve.</div>
-                      </div>
-                      <div class="accordion_panel">
-                        <p>
-                          We have been engaging in this field for decades.We can share the contact that we earned to grow your career in a best manner.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="accordion_container">
-                      <div class="accordion d-flex flex-row align-items-center">
-                        <div>We design course to fix market.</div>
-                      </div>
-                      <div class="accordion_panel">
-                        <p>
-                          Construction and IT as we know comes under evergreen industry . Which ensure the job security in a most modern civilization.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Accordions End -->
-              </div>
-            </div>
-
-            <!-- Feature Video -->
-            <div class="col-lg-6 feature_col">
-              <div
-                class="feature_video d-flex flex-column align-items-center justify-content-center" 
-              >
-              
-                <iframe 
-                  width=100% 
-                  height="305"
-                  src="https://www.youtube-nocookie.com/embed/L9wTaOib1kE"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+              <div class="breadcrumbs">
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li>About</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- Team -->
-      <section class="section oh">
-      <div class="journey-top">
-        <div class="row justify-content-center">
-          <h1>Our Journey</h1>
-        </div>
-      </div>
-        <div class="container">
-          <div class="row justify-content-center ">
-            
-            <div class="col-md-10 col-lg-7">
-              <!-- Timeline-->
-              <div class="timeline-classic timeline-classic_1">
-                <div class="timeline-classic-item">
-                  <div class="timeline-classic-item-decoration"></div>
-                  <div class="timeline-classic-item-inner">
-                   
-                    <p class="timeline-classic-title"><span class="text-accent">1995.</span><span>Our Start</span></p>
-                    <div class="timeline-classic-text">
-                      <p> ESTABLISHED AS NIC COMPUTER CENTER.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-classic-item">
-                  <div class="timeline-classic-item-decoration"></div>
-                  <div class="timeline-classic-item-inner">
-                   
-                    <p class="timeline-classic-title"><span class="text-accent">2002.</span><span>Shifting</span></p>
-                    <div class="timeline-classic-text">
-                      <p>SHIFTED TO NEW LOCATION WITH C-DIT AFFLIATION.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-classic-item">
-                  <div class="timeline-classic-item-decoration"></div>
-                  <div class="timeline-classic-item-inner">
-                    
-                    <p class="timeline-classic-title"><span class="text-accent">2009.</span><span>Infonic</span></p>
-                    <div class="timeline-classic-text">
-                      <p>INFONIC ENGINEERING SERVICES STARTED (CAD AND BIM) </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-classic-item">
-                  <div class="timeline-classic-item-decoration"></div>
-                  <div class="timeline-classic-item-inner">
-                  
-                    <p class="timeline-classic-title"><span class="text-accent">2013.</span><span>1 st Joint venture</span></p>
-                    <div class="timeline-classic-text">
-                      <p> WE HAD JOINT VENTURE OFFICES AT UAE WITH AL ZAHRIAH ELECTROMECHANICAL.</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="timeline-classic-item">
-                  <div class="timeline-classic-item-decoration"></div>
-                  <div class="timeline-classic-item-inner">
-                  
-                    <p class="timeline-classic-title"><span class="text-accent">2013.</span><span>Joint venture</span></p>
-                    <div class="timeline-classic-text">
-                      <p> WE HAD JOINT VENTURE OFFICES AT UAE WITH AL ZAHRIAH ELECTROMECHANICAL.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-classic-item">
-                  <div class="timeline-classic-item-decoration"></div>
-                  <div class="timeline-classic-item-inner">
-                  
-                    <p class="timeline-classic-title"><span class="text-accent">2022.</span><span>Infonic As A Company </span></p>
-                    <div class="timeline-classic-text">
-                      <p> INFONIC INNOVATIONS LLP STARTED (BIM AND IT) .</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-classic-item">
-                  <div class="timeline-classic-item-decoration"></div>
-                  <div class="timeline-classic-item-inner">
-                  
-                    <p class="timeline-classic-title"><span class="text-accent">2022.</span><span>IBIM Solutions LLP</span></p>
-                    <div class="timeline-classic-text">
-                      <p> IBIM SOLUTIONS LLP (REVIT / CAD / IT PROFFESSIONAL LEVEL TRAINING) 6 duo. Dove Aimee ou t of storage  </p>
-                    </div>
-                  </div>
-                </div>
+    <!-- About -->
+
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="section_title_container text-center">
+              <h2 class="section_title">
+                Welcome To i BIM Solutions
+              </h2>
+              <div class="section_subtitle">
+                <p>
+                  "Grow together with Technology."
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+        <div class="row about_row justify-content-center">
+          <!-- About Item -->
+          <div class="col-lg-3 about_col about_col_left">
+            <div class="about_item">
+              <div class="about_item_image">
+                <img src="images/story.jpg" alt="" />
+              </div>
+              <div class="about_item_title"><a href="#">Our Stories</a></div>
+              <div class="about_item_text">
+                <p>
+                  We have been in the IT and construction industries for a
+                  decade and more with a good working experience on IT Programming, BIM /CAD Construction Projects.
 
-      <!-- Footer -->
-      <footer class="footer">
-        <div
-          class="footer_background"
-          style="background-image: url(images/footer_background.png)"
-        ></div>
-        <div class="container">
-          <div class="row footer_row">
-            <div class="col">
-              <div class="footer_content">
-                <div class="row justify-content-center">
-                  <div class="col-lg-5 footer_col">
-                    <!-- Footer About -->
-                    <div class="footer_section footer_about">
-                      <div class="footer_logo_container">
-                        <a href="#">
-                          <div class="footer_logo_text row justify-content-center">
-                            <div class="logo_text"><img src="images/image.png" alt="" width="140" height="71"/></div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="container">
-                        <div class="row justify-content-center">
+                  We would like to impart the experienced industrial Professional
+                  knowledge to you with a unique designed proven
+                  programme,which will tune you to become a Expert & Tech Champion in a very short time.
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Item -->
+          <div class="col-lg-3 about_col about_col_middle">
+            <div class="about_item">
+              <div class="about_item_image">
+                <img src="images/mission.jpg" alt="" />
+              </div>
+              <div class="about_item_title"><a href="#">Our Mission</a></div>
+              <div class="about_item_text">
+                <p>
+                  We pledge to offer top quality teaching & Guidance from
+                  Expert Faculty.Aiming with concept-Grow together with technology while Empowering Engineers.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Item -->
+          <div class="col-lg-3 about_col about_col_right">
+            <div class="about_item">
+              <div class="about_item_image">
+                <img src="images/vision.jpeg" alt="" />
+              </div>
+              <div class="about_item_title"><a href="#">Our Vision</a></div>
+              <div class="about_item_text">
+                <p>
+                  Dedicated to advancing technology and the human mind for
+                  global harmony.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 about_col about_col_right">
+            <div class="about_item">
+              <div class="about_item_image">
+                <img src="images/journey.jpg" alt="" />
+              </div>
+              <div class="about_item_title"><a href="#">Our Journey</a></div>
+              <div class="about_item_text">
+                <p>
+                <ul>
+                  <li>
+                    <P> 1995 : Established as NIC computer Centre.
+
+                    </P>
+
+
+                  </li>
+                  <li>
+                    <p>
+                      2002 : Reveived C-DIT Affiliation under Govt of Kerala
+                    </p>
+
+
+
+                  </li>
+                  <li>
+                    <p>
+                      2009 : Started Infonic Engineering Services ( CAD )
+                    </p>
+
+
+
+                  </li>
+                  <li>
+
+
+                    <p>
+                      2013 : Made a leap towards middle east, Joint venture with AL Zahriah Electromechanical in UAE on
+                      CAD/BIM projects
+                    </p>
+                  </li>
+                  <li>
+
+
+                    <p>
+
+                      2013 : Spread out Oman especially on Air Port projects, Joint venture with Global Electrical &
+                      Technical services LLC ( BIM / CAD )
+                    </p>
+
+
+                  
+
+
+                  </li>
+                  <li>
+
+
+                    <p>
+                      2022 : Started Infonic Innovations LLP, to develop IT based on specially designed applications.
+                    </p>
+                  </li>
+                  <li>
+
+
+                    <p>
+                      2022 : Started IBIM solutions
+                      For training and empowering engineers in the field of BIM & IT full stack development.
+                    </p>
+                  </li>
+                </ul>
+                Dedicated to advancing technology and the human mind for
+                global harmony.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature -->
+
+    <div class="feature">
+      <div class="feature_background" style="background-image: url(images/courses_background.jpg)"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="section_title_container text-center">
+              <h2 class="section_title">Why You Choose Us</h2>
+              <div class="section_subtitle">
+                <p>
+                  "Grow together with Technology."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row feature_row">
+          <!-- Feature Content -->
+          <div class="col-lg-6 feature_col">
+            <div class="feature_content">
+              <!-- Accordions -->
+              <div class="accordions">
+                <div class="elements_accordions">
+                  <div class="accordion_container">
+                    <div class="accordion d-flex flex-row align-items-center">
+                      <div>Experience</div>
+                    </div>
+                    <div class="accordion_panel">
+                      <p>
+                        Unmatched experience of being in the industry for decades, delivering global standerd.
+                        We are experts in this field. So we committed to provide high quality education.
+
+                    </div>
+                  </div>
+
+                  <div class="accordion_container">
+                    <div class="accordion d-flex flex-row align-items-center">
+                      <div>You’re learning from the best.</div>
+                    </div>
+                    <div class="accordion_panel">
+                      <p>we were delivered projects in Middle East, East Asia, India and UK. We are always expanding our
+                        horizons and now entering Europe region.
+                        This also enabled us to have in depth understanding of codes and standards to follow for our
+                        global projects.</p>
+                    </div>
+                  </div>
+
+                  <div class="accordion_container">
+                    <div class="accordion d-flex flex-row align-items-center">
+                      <div>We assist you to get placement.</div>
+                    </div>
+                    <div class="accordion_panel">
+                      <p>
+                        We believe that a Course is only complete after achieving your expected job profile .
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="accordion_container">
+                    <div class="accordion d-flex flex-row align-items-center">
+                      <div>Years of contact reserve.</div>
+                    </div>
+                    <div class="accordion_panel">
+                      <p>
+                        We have been engaging in this field for decades.We can share the contact that we earned to grow
+                        your career in a best manner.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="accordion_container">
+                    <div class="accordion d-flex flex-row align-items-center">
+                      <div>We design course to fix market.</div>
+                    </div>
+                    <div class="accordion_panel">
+                      <p>
+                        Construction and IT as we know comes under evergreen industry . Which ensure the job security in
+                        a most modern civilization.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordions End -->
+            </div>
+          </div>
+
+          <!-- Feature Video -->
+          <div class="col-lg-6 feature_col">
+            <div class="feature_video d-flex flex-column align-items-center justify-content-center">
+
+              <iframe width=100% height="305" src="https://www.youtube-nocookie.com/embed/L9wTaOib1kE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team -->
+   
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer_background" style="background-image: url(images/footer_background.png)"></div>
+      <div class="container">
+        <div class="row footer_row">
+          <div class="col">
+            <div class="footer_content">
+              <div class="row justify-content-center">
+                <div class="col-lg-5 footer_col">
+                  <!-- Footer About -->
+                  <div class="footer_section footer_about">
+                    <div class="footer_logo_container">
+                      <a href="#">
+                        <div class="footer_logo_text row justify-content-center">
+                          <div class="logo_text"><img src="images/image.png" alt="" width="140" height="71" /></div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="container">
+                      <div class="row justify-content-center">
+
+                       <div class="footer_social">
                           
-                          <div class="footer_social">
-                            <ul>
-                              <li>
-                                <a href="https://www.facebook.com/ibim.kallambalam" target="_blank" 
-                                  ><i
-                                    class="fa fa-facebook"
-                                    aria-hidden="true"
-                                  ></i
-                                ></a>
-                              </li>
-                              
-                              <li>
-                                <a href="https://chat.whatsapp.com/EhcewOXRd8WHqDLVYTk8F6" target="_blank" >
-									<i class="fa fa-whatsapp"
-										aria-hidden="true">
+                          <ul>
+                            <li>
+                              <a href="https://www.facebook.com/ibim.kallambalam" target="_blank"><i
+                                  class="fa fa-facebook" style="font-size:44px;color: #0e7ce3" aria-hidden="true"></i></a>
+                            </li>
 
-									</i>
-								</a> 
-								</li>
-								<li>
-									<a href="https://t.me/+R2SCRJRpt4w2Yjg8" target="_blank" >
-										<i class="fa fa-telegram"
-											aria-hidden="true">
-	
-										</i>
-									</a> 
-									</li>
-                              <li>
-                                <a href="https://www.linkedin.com/company/ibim-solutions/"  target="_blank"
-                                  ><i
-                                    class="fa fa-linkedin"
-                                    aria-hidden="true"
-                                  ></i
-                                ></a>
-                              </li>
-                            </ul>
-                          </div>
+                            <li>
+                              <a href="https://chat.whatsapp.com/EhcewOXRd8WHqDLVYTk8F6" target="_blank">
+                                <i class="fa fa-whatsapp" style="font-size:44px;color:#32a852" aria-hidden="true">
+                                </i>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://t.me/+R2SCRJRpt4w2Yjg8" target="_blank">
+                                <i class="fa fa-telegram" style="font-size:44px;color:#0e7ce3" aria-hidden="true">
+                                </i>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.linkedin.com/company/ibim-solutions/" target="_blank"><i
+                                  class="fa fa-linkedin" style="font-size:44px;color:#00a6ff" aria-hidden="true"></i></a>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -505,57 +433,57 @@ global harmony.
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="row copyright_row">
-            <div class="col">
-              <div
-                class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start"
-              >
-                <div class="cr_text">
-                  <!-- Link back to infonic solutionscan't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  All rights reserved
-                  <!-- Link back to infonic solutionscan't be removed. Template is licensed under CC BY 3.0. -->
-                </div>
-                <div class="ml-lg-auto cr_links">
-                  <ul class="cr_list">
-                    <li><a href=""></a></li>
-                    <li>Terms of Use</li>
-                    <li>Privacy Policy</li>
-                  </ul>
-                </div>
+        <div class="row copyright_row">
+          <div class="col">
+            <div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+              <div class="cr_text">
+                <!-- Link back to infonic solutionscan't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved
+                <!-- Link back to infonic solutionscan't be removed. Template is licensed under CC BY 3.0. -->
+              </div>
+              <div class="ml-lg-auto cr_links">
+                <ul class="cr_list">
+                  <li><a href=""></a></li>
+                  <li>Terms of Use</li>
+                  <li>Privacy Policy</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </footer>
-    </div>
-    <script>
-   
-      setTimeout(function() {
-        $('#container').fadeToggle();
-       
-        
-      }, 3000);
-    
-      </script>
-     
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="styles/bootstrap4/popper.js"></script>
-    <script src="styles/bootstrap4/bootstrap.min.js"></script>
-    <script src="plugins/greensock/TweenMax.min.js"></script>
-    <script src="plugins/greensock/TimelineMax.min.js"></script>
-    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-    <script src="plugins/greensock/animation.gsap.min.js"></script>
-    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-    <script src="plugins/easing/easing.js"></script>
-    <script src="plugins/parallax-js-master/parallax.min.js"></script>
-    <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
-    <script src="js/about.js"></script>
-  </body>
+      </div>
+    </footer>
+  </div>
+  <script>
+
+    setTimeout(function () {
+      $('#container').fadeToggle();
+
+
+    }, 1500);
+
+  </script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="styles/bootstrap4/popper.js"></script>
+  <script src="styles/bootstrap4/bootstrap.min.js"></script>
+  <script src="plugins/greensock/TweenMax.min.js"></script>
+  <script src="plugins/greensock/TimelineMax.min.js"></script>
+  <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+  <script src="plugins/greensock/animation.gsap.min.js"></script>
+  <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+  <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+  <script src="plugins/easing/easing.js"></script>
+  <script src="plugins/parallax-js-master/parallax.min.js"></script>
+  <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+  <script src="js/about.js"></script>
+</body>
+
 </html>

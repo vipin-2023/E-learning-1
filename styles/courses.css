@@ -1526,7 +1526,7 @@ section
 	position: relative;
 	width: 100%;
 	background: #1e2434;
-	padding-top: 94px;
+	padding-top: 40px;
 }
 .footer_background
 {
@@ -1541,7 +1541,7 @@ section
 }
 .footer_content
 {
-	padding-bottom: 53px;
+	padding-bottom: 10px;
 }
 .footer_logo_text
 {
@@ -1587,8 +1587,8 @@ section
 .footer_social ul li
 {
 	display: inline-block;
-	width: 45px;
-	height: 45px;
+	width: 60px;
+	height: 60px;
 	background: #4b505d;
 	border-radius: 50%;
 	-webkit-transition: all 200ms ease;

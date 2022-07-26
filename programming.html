@@ -19,6 +19,27 @@
 </head>
 
 <body>
+	<div id="preloader">
+		<div id="container" class="container-preloader">
+		  <div class="animation-preloader">
+		   
+			<div class="txt-loading">
+			  <span preloader-text="i" class="characters">i</span>
+			  
+			  <span preloader-text="B" class="characters">B</span>
+			  
+			  <span preloader-text="I" class="characters">I</span>
+			  
+			  <span preloader-text="M" class="characters">M</span>
+			  
+			 
+			</div>
+		  </div>	
+		  <div class="loader-section section-left"></div>
+		  <div class="loader-section section-right"></div>
+		</div>
+	  </div>	
+	
 
 	<div class="super_container">
 
@@ -478,7 +499,7 @@
 										<div class="teacher_image"><img src="images/nimesh.jpeg" alt=""></div>
 										<div class="teacher_title">
 											<div class="teacher_name"><a href="#">Nimesh .M</a></div>
-											<div class="teacher_position">Marketing & Management </div>
+											<div class="teacher_position">Full-Stack Developer </div>
 										</div>
 									</div>
 									<div class="teacher_meta_container">
@@ -518,6 +539,17 @@
 		
 	</div>
 	</div>
+	 
+    <script>
+		setTimeout(function() {
+		  $('#container').fadeToggle();
+		 
+		  
+		}, 4000);
+	  
+		</script>
+	   
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="styles/bootstrap4/popper.js"></script>

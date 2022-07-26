@@ -18,6 +18,35 @@
 </head>
 
 <body>
+  <div id="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+       
+        <div class="txt-loading">
+          <span preloader-text="i" class="characters">i</span>
+          
+          <span preloader-text="B" class="characters">B</span>
+          
+          <span preloader-text="I" class="characters">I</span>
+          
+          <span preloader-text="M" class="characters">M</span>
+          
+         
+        </div>
+      </div>	
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>	
+
+  
+
+
+
+
+
+
+
   <div class="super_container">
     <!-- Header -->
 
@@ -274,9 +303,13 @@
                 </select>
                 <textarea class="counter_input counter_text_input" name="message" placeholder="Message:"
                   required="required"></textarea>
-                  <button type="submit">
-                    <span>Submit</span>
-                  </button>
+                  <div id="submit">
+                    <button type="submit">
+                      <span>Submit</span>
+                    </button>
+
+                  </div>
+                  
                
               </form>
             </div>
@@ -318,17 +351,7 @@
                 <div class="team_subtitle">( Architecture Services )</div>
 
                 <div class="social_list">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                    </li>
-                  </ul>
+                  
                 </div>
               </div>
             </div>
@@ -344,17 +367,7 @@
                 <div class="team_subtitle">( MEPF Services )</div>
 
                 <div class="social_list">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                    </li>
-                  </ul>
+                  
                 </div>
               </div>
             </div>
@@ -370,17 +383,7 @@
                 <div class="team_subtitle">Programmer & Teacher</div>
 
                 <div class="social_list">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                    </li>
-                  </ul>
+                  
                 </div>
               </div>
             </div>
@@ -395,17 +398,7 @@
                 <div class="team_title"><a href="#">Sabareesh .M</a></div>
                 <div class="team_subtitle">MEP Expert</div>
                 <div class="social_list">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                    </li>
-                  </ul>
+                  
                 </div>
               </div>
             </div>
@@ -439,7 +432,9 @@
                     </div>
                     <div class="container">
                       <div class="row justify-content-center">
+                        
                         <div class="footer_social">
+                          
                           <ul>
                             <li>
                               <a href="https://www.facebook.com/ibim.kallambalam" target="_blank"><i
@@ -498,7 +493,18 @@
       </div>
     </footer>
   </div>
+ 
+  <script>
+   
+  setTimeout(function() {
+    $('#container').fadeToggle();
+   
+    
+  }, 4000);
 
+  </script>
+ 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="styles/bootstrap4/popper.js"></script>
   <script src="styles/bootstrap4/bootstrap.min.js"></script>

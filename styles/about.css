@@ -2115,7 +2115,7 @@ journey */
 }
 
 .container-c .content-c h2 {
-  margin: 0 0 10px 0;
+  margin: 0 0 0 0;
   font-size: 18px;
   font-weight: normal;
   color: #03a7ff;
@@ -2135,8 +2135,8 @@ journey */
 
   .container-c {
     width: 100%;
-    padding-left: 135px;
-    padding-right: 30px;
+    padding-left: 125px;
+    padding-right: 10px;
   }
 
   .container-c.right {

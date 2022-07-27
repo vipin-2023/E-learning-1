@@ -2054,8 +2054,8 @@ section {
 
 .footer_social ul li {
 	display: inline-block;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	background: #4b505d;
 	border-radius: 50%;
 	-webkit-transition: all 200ms ease;
@@ -2077,7 +2077,7 @@ section {
 
 .footer_social ul li a i {
 	color: #FFFFFF;
-	line-height: 57.7px;
+	line-height: 50px;
 
 }
 

@@ -15,31 +15,32 @@
   <link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
   <link rel="stylesheet" type="text/css" href="styles/responsive.css" />
   <link rel="icon" href="images/favicon.png" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <div id="preloader">
     <div id="container" class="container-preloader">
       <div class="animation-preloader">
-       
+
         <div class="txt-loading">
           <span preloader-text="i" class="characters">i</span>
-          
+
           <span preloader-text="B" class="characters">B</span>
-          
+
           <span preloader-text="I" class="characters">I</span>
-          
+
           <span preloader-text="M" class="characters">M</span>
-          
-         
+
+
         </div>
-      </div>	
+      </div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
     </div>
-  </div>	
+  </div>
 
-  
+
 
 
 
@@ -183,7 +184,7 @@
           </div>
         </div>
         <div class="row courses_row justify-content-center">
-          <div class="col-lg-5 course_col">
+          <div data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine" class="col-lg-5 course_col">
             <div class="course">
               <div class="course_image">
                 <img src="images/Bim_f.jpeg" alt="" />
@@ -199,13 +200,13 @@
               </div>
             </div>
             <div class="row">
-						
+
               <div class="col">
-                <div class="courses_button trans_200 " ><a  href="bim.html">BIM</a></div>
+                <div class="courses_button trans_200 "><a href="bim.html">BIM</a></div>
               </div>
             </div>
           </div>
-          <div class="col-lg-5 course_col">
+          <div data-aos="fade-left" data-aos-offset="350" data-aos-easing="ease-in-sine" class="col-lg-5 course_col">
             <div class="course">
               <div class="course_image">
                 <img src="images/programming-f.jpeg" alt="" />
@@ -222,15 +223,15 @@
             </div>
             <div class="row">
               <div class="col">
-                
-                <div class="courses_button trans_200"  ><a  href="programming.html">PROGRAMMING</a></div>
+
+                <div class="courses_button trans_200"><a href="programming.html">PROGRAMMING</a></div>
               </div>
-              
+
             </div>
           </div>
 
           <!-- Course -->
-         
+
         </div>
       </div>
     </div>
@@ -305,9 +306,11 @@
                 </select>
                 <textarea class="counter_input counter_text_input" name="message" placeholder="Message:"
                   required="required"></textarea>
-                  <button type="submit" class="counter_form_button"><h3 style="color:white;">Submit</h3></button>
-                  
-               
+                <button type="submit" class="counter_form_button">
+                  <h3 style="color:white;">Submit</h3>
+                </button>
+
+
               </form>
             </div>
           </div>
@@ -337,7 +340,7 @@
         <div class="row team_row justify-content-center">
           <!-- Team Item -->
 
-          <div class="col-lg-3 col-md-6 team_col">
+          <div data-aos="fade-down" data-aos-offset="150"  data-aos-anchor-placement="center-bottom" class="col-lg-3 col-md-6 team_col">
             <div class="team_item">
               <div class="team_image">
                 <img src="images/sajith0.jpeg" alt="" />
@@ -348,12 +351,12 @@
                 <div class="team_subtitle">( Architecture Services )</div>
 
                 <div class="social_list">
-                  
+
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 team_col">
+          <div data-aos="fade-up" data-aos-offset="150" data-aos-anchor-placement="center-bottom" class="col-lg-3 col-md-6 team_col">
             <div class="team_item">
               <div class="team_image">
                 <img src="images/ajith1.jpeg" alt="" />
@@ -364,13 +367,13 @@
                 <div class="team_subtitle">( MEPF Services )</div>
 
                 <div class="social_list">
-                  
+
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 team_col">
+          <div data-aos="fade-down" data-aos-offset="150" data-aos-anchor-placement="center-bottom" class="col-lg-3 col-md-6 team_col">
             <div class="team_item">
               <div class="team_image">
                 <img src="images/nimesh0.jpeg" alt="" />
@@ -380,13 +383,13 @@
                 <div class="team_subtitle">Programmer & Teacher</div>
 
                 <div class="social_list">
-                  
+
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 team_col">
+          <div data-aos="fade-up" data-aos-offset="150" data-aos-anchor-placement="center-bottom" class="col-lg-3 col-md-6 team_col">
             <div class="team_item">
               <div class="team_image">
                 <img src="images/sabareesh1.jpeg" alt="" />
@@ -395,7 +398,7 @@
                 <div class="team_title"><a href="#">Sabareesh .M</a></div>
                 <div class="team_subtitle">MEP Expert</div>
                 <div class="social_list">
-                  
+
                 </div>
               </div>
             </div>
@@ -429,13 +432,14 @@
                     </div>
                     <div class="container">
                       <div class="row justify-content-center">
-                        
+
                         <div class="footer_social">
-                          
+
                           <ul>
                             <li>
                               <a href="https://www.facebook.com/ibim.kallambalam" target="_blank"><i
-                                  class="fa fa-facebook" style="font-size:33px;color: #0e7ce3" aria-hidden="true"></i></a>
+                                  class="fa fa-facebook" style="font-size:33px;color: #0e7ce3"
+                                  aria-hidden="true"></i></a>
                             </li>
 
                             <li>
@@ -452,7 +456,8 @@
                             </li>
                             <li>
                               <a href="https://www.linkedin.com/company/ibim-solutions/" target="_blank"><i
-                                  class="fa fa-linkedin" style="font-size:33px;color:#00a6ff" aria-hidden="true"></i></a>
+                                  class="fa fa-linkedin" style="font-size:33px;color:#00a6ff"
+                                  aria-hidden="true"></i></a>
                             </li>
                           </ul>
                         </div>
@@ -490,17 +495,20 @@
       </div>
     </footer>
   </div>
- 
+
   <script>
-   
-  setTimeout(function() {
-    $('#container').fadeToggle();
-   
-    
-  }, 3400);
+
+    setTimeout(function () {
+      $('#container').fadeToggle();
+
+
+    }, 3400);
 
   </script>
- 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="styles/bootstrap4/popper.js"></script>

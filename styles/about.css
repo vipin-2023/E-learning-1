@@ -2033,8 +2033,8 @@ journey */
   left: 50%;
 }
 .back-ground-line{
-	width: 6px;
-	background-color: rgb(0, 140, 35);
+	width: 4px;
+	background-color:  rgb(221, 221, 221);
 	height: 95%;
 	position: absolute;
 	margin-left:50%;

@@ -2362,6 +2362,11 @@ figure.snip1192 img {
 	display: inline-block;
 	z-index: 1;
 	position: relative;
+	box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+	transition: box-shadow 1s ease-in-out;
+}
+figure.snip1192 img:hover{
+	box-shadow: rgba(17, 173, 93, 0.25) 0px 13px 27px -5px, rgba(17, 173, 93, 0.25) 0px 8px 16px -8px;
 }
 
 figure.snip1192 blockquote {

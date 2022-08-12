@@ -1579,11 +1579,15 @@ section
 }
 .teacher_image
 {
+	
 	width: 102px;
 	height: 102px;
 }
+.teacher_image:hover{
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 .teacher_image img
-{
+{border-radius: 3px;
 	max-width: 100%;
 }
 .teacher_title
@@ -1642,6 +1646,21 @@ section
 .teacher_info p
 {
 	line-height: 2;
+}
+.textContainerBim{
+	border-radius: 5px;
+	margin: 3px;
+	padding: 8px;
+	
+	box-shadow: rgba(100, 100, 100, 0.24) 0px 3px 8px;
+}
+.bimAchievements{
+	margin: 10px 3px;
+	border-radius: 5px;
+	
+	padding: 8px;
+	
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .sidebar_latest
 {

@@ -28,7 +28,7 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&family=Oswald&family=Roboto&family=Rubik:ital,wght@1,500&display=swap');
 
 /*********************************
 2. Body and some general stuff
@@ -44,12 +44,138 @@
 }
 body
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
 	color: #a5a5a5;
 }
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #ddd; height:100%;overflow-x: hidden;}	
+.text{color:brown;font-size:220px;text-align:center;}
+.open{color:green;background:#000;padding:10px;border-radius:20px;}
+
+/* Preloader */
+.container-preloader {
+	align-items:center; cursor:none; display:flex; height:100%;
+  justify-content:center; position:fixed; left:0; top:0; width:100%; z-index:900;
+}
+.container-preloader .animation-preloader {
+	position:absolute; z-index: 100;}
+/* Spinner Loading */
+.container-preloader .animation-preloader .spinner {
+  animation: spinner 1s infinite linear;
+	border-radius: 50%;  border: 10px solid rgba(0, 0, 0, 0.2);
+  border-top-color: green; /* It is not in alphabetical order so that you do not overwrite it */
+  height: 9em;  margin: 0 auto 3.5em auto; width: 9em;
+}
+/* Loading text */
+.container-preloader .animation-preloader .txt-loading {
+  font: bold 5em 'Montserrat', sans-serif;
+	text-align: center;	user-select: none;
+}
+.container-preloader .animation-preloader .txt-loading .characters:before {
+  animation: characters 4s infinite;   color: #0e940c;
+  content: attr(preloader-text);  left: 0;
+  opacity: 0;  position: absolute;  top: 0;
+  transform: rotateY(-90deg);
+}
+.container-preloader .animation-preloader .txt-loading .characters {
+	color: rgba(0, 0, 0, 0.2);	position: relative;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(2):before {
+  animation-delay: 0.2s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(3):before {
+  animation-delay: 0.4s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(4):before {
+  animation-delay: 0.6s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(5):before {
+  animation-delay: 0.8s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(6):before {
+  animation-delay: 1s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(7):before {
+  animation-delay: 1.2s;
+}
+.container-preloader .loader-section {
+  background-color: #ffffff;  height: 100%;
+  position: fixed;  top: 0;  width: calc(50% + 1px);
+}
+.container-preloader .loader-section.section-left {
+  left: 0;
+}
+.container-preloader .loader-section.section-right {
+  right: 0;
+}
+/* Fade effect on loading animation */
+.loaded .animation-preloader {
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+/* Curtain effect */
+.loaded .loader-section.section-left {
+  transform: translateX(-101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1.000);
+}
+.loaded .loader-section.section-right {
+  transform: translateX(101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1.000);
+}
+/* Animation of the preloader */
+@keyframes spinner {
+to {
+	transform: rotateZ(360deg);
+}}
+/* Animation of letters loading from the preloader */
+@keyframes characters {
+  0%,
+  75%,
+  100% {
+ opacity: 0;
+ transform: rotateY(-90deg);
+  }
+  25%,
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }}
+/* Laptop size back (laptop, tablet, cell phone) */
+@media screen and (max-width: 767px) {
+	/* Preloader */
+	/* Spinner Loading */	
+	.container-preloader .animation-preloader .spinner {
+	height: 8em;
+	width: 8em;
+	}
+	/* Text Loading */
+	.container-preloader .animation-preloader .txt-loading {
+	  font: bold 3.5em 'Montserrat', sans-serif;
+	}}
+@media screen and (max-width: 500px) {
+	/* Prelaoder */
+	/* Spinner Loading */
+	.container-preloader .animation-preloader .spinner {
+	height: 7em;
+	width: 7em;
+	}
+	/*Loading text */
+	.container-preloader .animation-preloader .txt-loading {
+	  font: bold 2em 'Montserrat', sans-serif;
+	}}
+.origin{text-decoration:none;
+font-size:45px;}
+
 div
 {
 	display: block;
@@ -91,7 +217,7 @@ p:last-of-type
 	margin-bottom: 0;
 }
 a, a:hover, a:visited, a:active, a:link
-{
+{letter-spacing: .1em;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -120,13 +246,13 @@ p::selection
 	
 }
 h1{font-size: 48px;}
-h2{font-size: 36px;}
+h2{font-size: 36px;letter-spacing: .1em;}
 h3{font-size: 24px;}
 h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -257,7 +383,7 @@ section
 }
 .header.scrolled
 {
-	top: -40px;
+	top: 0px;
 }
 
 /*********************************
@@ -289,7 +415,7 @@ section
 }
 .question
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	color: #FFFFFF;
 	margin-left: 0px;
@@ -377,7 +503,7 @@ section
 }
 .logo_text
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 0.75;
@@ -640,12 +766,12 @@ section
 }
 .menu_nav ul li a
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: rgba(0,0,0,1);
 	font-weight: 700;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.2em;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -692,35 +818,35 @@ section
 }
 .menu .search_input::-webkit-input-placeholder
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
 }
 .menu .search_input:-moz-placeholder
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
 }
 .menu .search_input::-moz-placeholder
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
 } 
 .menu .search_input:-ms-input-placeholder
 { 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
 }
 .menu .search_input::input-placeholder
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
@@ -810,9 +936,9 @@ section
 .course
 {
 	width: 100%;
-	padding-top: 57px;
-	padding-bottom: 100px;
-	background: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background: #ffffff;
 }
 .course_container
 {
@@ -820,7 +946,7 @@ section
 }
 .course_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	color: #384158;
@@ -850,7 +976,7 @@ section
 }
 .course_info_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #384158;
@@ -974,7 +1100,7 @@ section
 }
 .tab_panel_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	color: #384158;
@@ -1155,7 +1281,7 @@ section
 }
 .dropdown_item_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	color: #384158;
@@ -1306,7 +1432,7 @@ section
 }
 .comment_author a
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #384158;
@@ -1374,7 +1500,7 @@ section
 }
 .add_comment_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	color: #384158;
@@ -1405,7 +1531,7 @@ section
 }
 .sidebar_section_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #384158;
@@ -1417,7 +1543,7 @@ section
 }
 .course_price
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	color: #14bdee;
@@ -1453,11 +1579,15 @@ section
 }
 .teacher_image
 {
+	
 	width: 102px;
 	height: 102px;
 }
+.teacher_image:hover{
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 .teacher_image img
-{
+{border-radius: 3px;
 	max-width: 100%;
 }
 .teacher_title
@@ -1472,7 +1602,7 @@ section
 }
 .teacher_name a
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #384158;
@@ -1517,6 +1647,21 @@ section
 {
 	line-height: 2;
 }
+.textContainerBim{
+	border-radius: 5px;
+	margin: 3px;
+	padding: 8px;
+	
+	box-shadow: rgba(100, 100, 100, 0.24) 0px 3px 8px;
+}
+.bimAchievements{
+	margin: 10px 3px;
+	border-radius: 5px;
+	
+	padding: 8px;
+	
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .sidebar_latest
 {
 	margin-top: 31px;
@@ -1543,7 +1688,7 @@ section
 }
 .latest_title a
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	color: #383749;
@@ -1560,7 +1705,7 @@ section
 }
 .latest_price
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	color: #14bdee;
@@ -1594,7 +1739,7 @@ section
 }
 .newsletter_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1673,7 +1818,7 @@ section
 	text-transform: uppercase;
 	color: #14bdee;
 	font-weight: 500;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.2em;
 }
 
 /*********************************
@@ -1686,7 +1831,7 @@ section
 	position: relative;
 	width: 100%;
 	background: #1e2434;
-	padding-top: 94px;
+	padding-top: 40px;
 }
 .footer_background
 {
@@ -1701,11 +1846,11 @@ section
 }
 .footer_content
 {
-	padding-bottom: 53px;
+	padding-bottom: 10px;
 }
 .footer_logo_text
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 0.75;
@@ -1722,7 +1867,7 @@ section
 }
 .footer_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #FFFFFF;
@@ -1747,8 +1892,8 @@ section
 .footer_social ul li
 {
 	display: inline-block;
-	width: 45px;
-	height: 45px;
+	width: 60px;
+	height: 60px;
 	background: #4b505d;
 	border-radius: 50%;
 	-webkit-transition: all 200ms ease;
@@ -1770,7 +1915,7 @@ section
 .footer_social ul li a i
 {
 	color: #FFFFFF;
-	line-height: 45px;
+	line-height: 57.7px;
 }
 .footer_social ul li:hover
 {

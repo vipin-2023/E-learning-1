@@ -29,7 +29,7 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&family=Oswald&family=Roboto&family=Rubik:ital,wght@1,500&display=swap');
 
 /*********************************
 2. Body and some general stuff
@@ -45,7 +45,7 @@
 }
 body
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -66,7 +66,7 @@ ul
 }
 p
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	line-height: 1.85;
 	font-weight: 400;
@@ -127,7 +127,7 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -258,7 +258,7 @@ section
 }
 .header.scrolled
 {
-	top: -40px;
+	top: 0px;
 }
 
 /*********************************
@@ -290,7 +290,7 @@ section
 }
 .question
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	color: #FFFFFF;
 	margin-left: 0px;
@@ -378,7 +378,7 @@ section
 }
 .logo_text
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 0.75;
@@ -641,12 +641,12 @@ section
 }
 .menu_nav ul li a
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: rgba(0,0,0,1);
 	font-weight: 700;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.2em;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -693,35 +693,35 @@ section
 }
 .menu .search_input::-webkit-input-placeholder
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
 }
 .menu .search_input:-moz-placeholder
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
 }
 .menu .search_input::-moz-placeholder
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
 } 
 .menu .search_input:-ms-input-placeholder
 { 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
 }
 .menu .search_input::input-placeholder
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
@@ -762,9 +762,35 @@ section
 {
 	width: 100%;
 	height: 182px;
-	background: #f2f4f5;
-	border-bottom: solid 1px #edeff0;
+	background: #ffffff;
+	border-bottom: solid 1px #aeaeae;
 }
+@media screen and (max-width: 370px ) {
+  
+    
+    .home
+{
+	width: 100%;
+	height: 50vh;
+	background: #ffffff;
+	border-bottom: solid 1px #aeaeae;
+}
+.home_slider_container{
+	width: 100%;
+	height: 100px;
+	background: #ffffff;
+	border-bottom: solid 1px #aeaeae;
+
+}
+.home_slider_background{
+	width: 100%;
+	height: 100px;
+	background: #ffffff;
+	border-bottom: solid 1px #aeaeae;
+
+}
+    
+  }
 .breadcrumbs_container
 {
 	position: absolute;
@@ -918,7 +944,7 @@ section
 }
 .course_title a
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	color: #384158;
 	-webkit-transition: all 200ms ease;
@@ -933,14 +959,14 @@ section
 }
 .course_teacher
 {
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 400;
 	color: #384158;
 	margin-top: 6px;
 }
 .course_text
 {
-	margin-top: 13px;
+	margin-top: 16px;
 }
 .course_footer
 {
@@ -971,14 +997,14 @@ section
 }
 .course_price
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	color: #14bdee;
 }
 .course_price span
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	text-decoration: line-through;
@@ -992,7 +1018,7 @@ section
 	border-radius: 3px;
 	background: #14bdee;
 	text-align: center;
-	margin: 0 auto;
+	margin:  auto;
 	margin-top: 41px;
 	box-shadow: 0px 5px 40px rgba(29,34,47,0.15);
 }
@@ -1002,8 +1028,8 @@ section
 }
 .courses_button a
 {
-	display: block;
-	font-size: 14px;
+	
+	font-size: 20px;
 	font-weight: 500;
 	text-transform: uppercase;
 	line-height: 46px;
@@ -1126,7 +1152,7 @@ section
 }
 .sidebar_section_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #384158;
@@ -1203,7 +1229,7 @@ section
 }
 .latest_title a
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	color: #383749;
@@ -1220,7 +1246,7 @@ section
 }
 .latest_price
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	color: #14bdee;
@@ -1341,7 +1367,7 @@ section
 }
 .banner_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	color: #FFFFFF;
@@ -1365,7 +1391,7 @@ section
 	color: #14bdee;
 	font-size: 14px;
 	font-weight: 400;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.2em;
 	margin-left: -0.1em;
 	text-transform: uppercase;
 	line-height: 46px;
@@ -1408,7 +1434,7 @@ section
 }
 .newsletter_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1487,7 +1513,7 @@ section
 	text-transform: uppercase;
 	color: #14bdee;
 	font-weight: 500;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.2em;
 }
 
 /*********************************
@@ -1500,7 +1526,7 @@ section
 	position: relative;
 	width: 100%;
 	background: #1e2434;
-	padding-top: 94px;
+	padding-top: 40px;
 }
 .footer_background
 {
@@ -1515,11 +1541,11 @@ section
 }
 .footer_content
 {
-	padding-bottom: 53px;
+	padding-bottom: 10px;
 }
 .footer_logo_text
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 0.75;
@@ -1536,7 +1562,7 @@ section
 }
 .footer_title
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #FFFFFF;
@@ -1561,8 +1587,8 @@ section
 .footer_social ul li
 {
 	display: inline-block;
-	width: 45px;
-	height: 45px;
+	width: 60px;
+	height: 60px;
 	background: #4b505d;
 	border-radius: 50%;
 	-webkit-transition: all 200ms ease;
@@ -1584,7 +1610,7 @@ section
 .footer_social ul li a i
 {
 	color: #FFFFFF;
-	line-height: 45px;
+	line-height: 57.7px;
 }
 .footer_social ul li:hover
 {
